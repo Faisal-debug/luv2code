@@ -38,6 +38,8 @@ public class EmployeeController {
 			List<Employee> theEmployees=empService.findAll();
 		//add the spring model
 		theModel.addAttribute("employees",theEmployees);
+		System.out.print("For testing Jenkins");
+		System.out.print("For testing Jenkins2");
 		return "employees/list-employees";
 		}
 		
@@ -47,6 +49,7 @@ public class EmployeeController {
 			//create model attribute to bind form data
 			Employee theEmployee= new Employee();
 			theModel.addAttribute("employee",theEmployee);
+			 
 			
 			return "employees/employee-form";
 			
@@ -61,6 +64,7 @@ public class EmployeeController {
 			//set employee as a model attribute to pre-populate the form
 			theModel.addAttribute("employee",theEmployee);
 			
+          
 			//send over to our form
 			return "employees/employee-form";
 		}

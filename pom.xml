@@ -13,7 +13,7 @@
 	<artifactId>Luv2Code</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Luv2Code</name>
-	<description>Demo project for Hospital Management</description>
+	<description>luv2code demo</description>
 
 	<properties>
 		<java.version>1.8</java.version>
